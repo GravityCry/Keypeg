@@ -3,7 +3,7 @@ import subprocess, pexpect
 host = 'alucard.csc.depauw.edu'
 dst = '/home/LDAPdir/qnguyen19/'
 user = 'qnguyen19'
-pwd = 'quannguyen135'
+pwd = ''
 
 def send(filepath):
     child = pexpect.spawn(f'scp {filepath} {user}@{host}:{dst}')
